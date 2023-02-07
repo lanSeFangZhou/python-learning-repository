@@ -31,6 +31,7 @@ s 由英文字母、数字、符号和空格组成
 
 import logging as log
 
+# TODO lengthOfLongestSubstring方法待完善
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -83,19 +84,12 @@ class Solution(object):
 if __name__ == "__main__":
     solution = Solution()
     s = "abcabcbb"
-    result = solution.lengthOfLongestSubstring1(s)
+    result = solution.lengthOfLongestSubstring(s)
     # log.info(f"result:{result}")
     print(f"result:{result}")
 
 
-# 您的出生年月：1992年2月
-# 户籍：陕西省安康市
-# 目前薪资：年包53W+10W期权
-# 期望薪资：年包65W左右
-# 政治面貌：群众
-# 到岗周期：随时
-# 还有学历国内都可以认证吗：本科，211，可以的
-# 还有离职原因是：公司和部门有大的变动，想要更好的长期发展机会
+
 
 
 
